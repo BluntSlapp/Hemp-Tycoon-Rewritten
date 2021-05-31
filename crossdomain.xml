@@ -3,14 +3,6 @@
 
 <cross-domain-policy>
 	<site-control permitted-cross-domain-policies="all" /> 
-	<allow-access-from domain="*.frimastudio.com" to-ports="*"/>
-	<allow-access-from domain="*.frimastudio.com" secure="true" to-ports="*"/>
-	<allow-access-from domain="*.adultswim.com" to-ports="*"/>
-	<allow-access-from domain="*.adultswim.com" secure="true" to-ports="*"/>
-	<allow-access-from domain="*.turner.com" to-ports="*"/>
-	<allow-access-from domain="*.turner.com" secure="true" to-ports="*"/>
-	<allow-access-from domain="*.amazonaws.com" to-ports="*"/>
-	<allow-access-from domain="*.amazonaws.com" secure="true" to-ports="*"/>
-	<allow-access-from domain="*.hemptycoongame.com" to-ports="*"/>
-	<allow-access-from domain="*.hemptycoongame.com" secure="true" to-ports="*"/>
+	<allow-access-from domain="*.bluntslapp.github.io" to-ports="*"/>
+	<allow-access-from domain="*.bluntslapp.github.io" secure="true" to-ports="*"/>
 </cross-domain-policy>
