@@ -1,0 +1,263 @@
+body { font-family:"Lucida Grande", sans-serif; background-color: #fff; text-align: right;}
+.clearfloat{
+  clear: both;
+  height: 1px;
+  }
+a img {
+  border: none;
+  text-decoration: none;
+}  
+#content {
+  width: 760px;
+  text-align: right;
+  float:right;
+  margin-right: -8px;
+}
+#progress-bar {
+  width: 760px;
+  height: 36px;
+  background: url('/web/20111205172625im_/http://i.adultswim.com/adultswim/big/games/facebook/frima/live/1.0.15/tools/img/bg_progress_bar.jpg') 0 0 no-repeat;
+  position: relative;
+  margin: 20px 0px 20px 0px;
+}
+.like_btn_area {
+  float: left;
+  width: 381px;
+  height: 26px;
+  padding-top: 2px;
+  margin: 4px 3px 3px;
+  background-color: #fff;
+}
+.invite_friends, .bookmark_btn {
+  position: relative;
+  overflow: hidden;
+  height: 32px;
+  float: right;
+  margin: 1px; 
+  cursor: pointer; 
+}
+.invite_friends img, .bookmark_btn img, .mobile_games img, .see_all_bottom_btn img {
+  position: relative;
+ top: 0px;
+}
+.see_all img {
+  position: relative;
+ top: -1px;
+}
+.invite_friends_on img, .bookmark_btn_on img {
+ top: -34px;
+}
+#game_holder {
+  margin: 0px;
+  clear:both;
+}
+#top_nav {
+  position: relative;
+  background: url('/web/20111205172625im_/http://i.adultswim.com/adultswim/big/games/facebook/frima/live/1.0.15/tools/img/bg_gametop_nav.png') 0 0 no-repeat;
+  margin: 0px;
+  height: 77px;
+  width: 760px;
+}
+.button_holder {
+  position: absolute;
+  width: 381px;
+  height: 30px;
+  padding-top: 4px;
+  top: 21px;
+  left: 356px; 
+}
+.see_all {
+ position: relative;
+ overflow:hidden;
+ height: 32px;
+ float: left;
+}
+.mobile_games {
+ position: relative;
+ overflow:hidden;
+ height: 32px;
+ float: right;
+}
+.see_all_on img, .mobile_games_on img {
+ top: -32px;
+}
+
+
+.glow_nav {
+  position: relative;
+  margin: 8px auto 10px 80px;
+  width: 650px;
+  height: 30px;
+} 
+.glow_nav_hm {
+  position: relative;
+  margin: 8px auto 10px 123px;
+  width: 620px;
+  height: 30px;
+}
+.glow_tab, .glow_tab_hm {
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  float: left;
+}
+.glow_spacer {
+  float: left;
+  color: #fff;
+  margin: 2px 8px;
+}
+.glow_spacer_hm {
+  float: left;
+  color: #fff;
+  margin: 4px 8px;
+}
+.glow_tab_on img {
+  top: -32px;
+}
+.glow_tab_hm_on img {
+  top: -37px;
+}
+.play_all_link {
+  float: right;
+  height: 20px;
+  margin: 10px 15px 0px 2px;
+  font-family: arial;
+  font-size: 12px;
+}
+.play_all_link a, .play_all_link a:link, .play_all_link a:visited {
+  color: #addbfc;
+}
+.play_all_link a:hover, .play_all_link a:active {
+  color: #fcf302;
+  text-decoration: underline;
+}
+
+.bottom_thumbs {
+  background: url('/web/20111205172625im_/http://i.adultswim.com/adultswim/big/games/facebook/frima/live/1.0.15/tools/img/bg_more_adultswimgames_nav.jpg') 0 0 no-repeat;
+  width: 760px;
+  height: 240px;
+  margin: 25px 0px 20px;  
+}
+.feedback_link {
+  width: 760px;
+  color: #39930a;
+  font-family: arial;
+  font-size: 11px;
+  font-weight: bold; 
+}
+.feedback_link_contain {
+  text-align: right;
+  float:right;
+}
+.pp_tos_contain {
+  float:left;
+}
+.feedback_link a, .feedback_link a:link, .feedback_link a:visited {
+  text-decoration: none;
+  color: #9ea998;
+}
+.feedback_link a:hover, .feedback_link a:active {
+  text-decoration: underline;
+  color: #9ea998;
+}
+.see_all_bottom {
+  height: 75px;
+  position: relative;
+  width: 760px;
+}
+.see_all_bottom_btn {
+  position: absolute;
+  height: 31px;
+  overflow: hidden;
+  top: 34px;
+  left: 543px;
+}
+.see_all_bottom_btn img {
+  position: relative;
+  top: 0px;
+}
+.see_all_bottom_btn_on img {
+  top: -30px;
+}
+.featurecard_games {
+  margin: 0px auto 0px 7px;
+  width: 759px;
+  height: 145px;
+}
+.featurecard_cell {
+  float: left;
+  width: 240px;
+  margin-right: 12px;
+  height: 143px;
+  color: #0e3327;
+  font-size: 11px;
+}
+.featurecard_cell p {
+  line-height: 12px;
+  margin: 0px;
+  text-align: left;
+  padding-left: 5px;
+}
+.featurecard_cell img {
+  border: 2px solid #fff;
+  -webkit-box-shadow: 2px 2px 2px #000; 
+     -moz-box-shadow: 2px 2px 2px #000; 
+          box-shadow: 2px 2px 2px #000; 
+}
+img.featurecard_cell_on {
+  border: 2px solid #285f2f !important;
+}
+.footer_block {
+  width: 610px;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  font-family: arial;
+  font-size: 11px;
+  color: #8a8989;
+  margin: auto;
+}
+.footer_block a, .footer_block a:link, .footer_block a:visited {
+  color: #0582ab;
+  text-decoration: none;
+}
+.footer_block a:hover, .footer_block a:active {
+  color: #0582ab;
+  text-decoration: underline;
+}
+.footer-list {
+  font-size: 12px !important;
+  width: 220px;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+.footer-list a, .footer-list a:link, .footer-list a:visited {
+  color: #8a8989;
+  text-decoration: none;
+}
+.footer-list a:hover, .footer-list a:active {
+  color: #8a8989;
+  text-decoration: underline;
+}
+/*
+     FILE ARCHIVED ON 17:26:25 Dec 05, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:11:01 May 31, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 96.55
+  exclusion.robots: 0.189
+  exclusion.robots.policy: 0.175
+  RedisCDXSource: 5.878
+  esindex: 0.011
+  LoadShardBlock: 52.793 (3)
+  PetaboxLoader3.datanode: 92.154 (4)
+  CDXLines.iter: 34.931 (3)
+  load_resource: 87.829
+  PetaboxLoader3.resolve: 38.833
+*/
